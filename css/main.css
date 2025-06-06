@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa; /* لون بسيط للخلفية */
+}
+
+.custom-navbar {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  padding: 0;
+}
+
+.custom-navbar .container {
+  width: 80%; /* جرب 70% لو عايزها أضيق */
+  max-width: 1000px;
+  background-color: white; /* خلفية سادة */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 80px;
+  max-width: 100%;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: royalblue;
+}
+
+.navbar-nav {
+  gap: 20px;
+}
